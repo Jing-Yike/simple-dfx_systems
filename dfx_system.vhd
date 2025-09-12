@@ -343,6 +343,7 @@ begin
             vsm_vs_count_sw_startup_req         =>  open,
             
             --ICAP signals
+            icap_csib                           =>  icap_csib,
             icap_o                              =>  icap_o,
             icap_i                              =>  icap_i,
             icap_rdwrb                          =>  icap_rdwrb,
